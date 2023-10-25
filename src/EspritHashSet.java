@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 public class EspritHashSet implements GestionEnseignant {
-    private HashSet<Enseignant> enseignants;
+    private HashSet<Enseignant> enseignants ;
 
     @Override
     public void ajouterEnseignant(Enseignant e) {
