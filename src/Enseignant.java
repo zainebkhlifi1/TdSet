@@ -1,4 +1,4 @@
-public class Enseignant {
+public class Enseignant implements Comparable<Enseignant> {
     int id ;
     String nom;
     String prenom;
@@ -59,9 +59,8 @@ public class Enseignant {
     }
 
 
-
-
-
-
-
+    @Override
+    public int compareTo(Enseignant o) {
+        return o.id-this.id;
+    }
 }

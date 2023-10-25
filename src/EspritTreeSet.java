@@ -1,7 +1,7 @@
 import java.util.TreeSet;
 
 public class EspritTreeSet implements  GestionEnseignant{
-    TreeSet<Enseignant> enseignants;
+   private TreeSet<Enseignant> enseignants;
     @Override
     public void ajouterEnseignant(Enseignant e) {
         enseignants.add(e);
@@ -25,6 +25,24 @@ public class EspritTreeSet implements  GestionEnseignant{
 
     @Override
     public void displayEnseignants() {
-        System.out.println(enseignants);
+        System.out.println(this.enseignants);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
